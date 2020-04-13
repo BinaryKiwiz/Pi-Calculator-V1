@@ -18,3 +18,17 @@
   text-align: center;
   width: 100%;
 }
+
+.StartDiv{
+  
+}
+
+.StartButton{
+  background: white;
+  text-align: center;
+  align-self: center;
+  position: absolute;
+  left: 48.3%;
+  border: solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
