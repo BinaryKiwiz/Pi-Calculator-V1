@@ -28,12 +28,14 @@ function Iterate(){
   DefinePi();
 }
 
+i = 0;
+
 function Start(){
   while(i < 100000){
     Iterate();
     RefreshPi();
     RefreshIteration();
-    i += 1
+    i += 1;
   }
   i = 0;
 }
