@@ -28,7 +28,7 @@ function Iterate(){
   DefinePi();
 }
 
-i = 0;
+var i = 0;
 
 function Start(){
   while(i < 100000){
