@@ -28,10 +28,12 @@ function Iterate(){
   DefinePi();
 }
 
-setTimeout(console.log("Begin"), 4000);
-
-while(Iteration < 1000000){
-  Iterate();
-  RefreshPi();
-  RefreshIteration();
+function Start(){
+  while(i < 100000){
+    Iterate();
+    RefreshPi();
+    RefreshIteration();
+    i += 1
+  }
+  i = 0;
 }
