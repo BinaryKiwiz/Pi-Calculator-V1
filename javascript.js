@@ -28,6 +28,8 @@ function Iterate(){
   DefinePi();
 }
 
+setTimeout(console.log("Begin"), 4000);
+
 while(Iteration < 1000000){
   Iterate();
   RefreshPi();
