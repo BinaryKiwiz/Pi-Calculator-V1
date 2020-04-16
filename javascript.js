@@ -5,7 +5,7 @@ var Denominator = 1;
 
 function DefinePi(){
   CurrentPi = 4 * CurrentFractionPi;
-  CurrentPi = CurrentPi.toFixed(100);
+  CurrentPi = CurrentPi.toFixed(50);
 }
 
 function RefreshPi(){
